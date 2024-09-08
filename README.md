@@ -1,4 +1,4 @@
-# Campus Yamu: Unlock Your Future!** 
+# Campus Yamu: Unlock Your Future!
 
 Welcome to **Campus Yamu**, the ultimate web application designed to help **Sri Lankan students** choose the best-suited university degree programs based on their Z-scores, district preferences, and subject streams! 
 
@@ -15,6 +15,9 @@ By utilizing cutting-edge **RAG (Retrieval-Augmented Generation)** models and **
 ### **Problem Description**
 
 A survey of 39 university undergraduates revealed that many Sri Lankan school leavers struggle to find university programs that align with their eligibility and preferences【4†source】. This is especially challenging given the complexity of Z-score cutoffs and the diversity of programs. Students often feel overwhelmed by the sheer number of options, lack of proper guidance, and difficulty accessing real-time information on eligibility.
+
+![image](https://github.com/user-attachments/assets/15d25e74-543f-4fd6-ad2d-e41c1092d89f)
+
 
 ---
 
