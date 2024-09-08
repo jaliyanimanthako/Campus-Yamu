@@ -29,7 +29,7 @@ The platform achieves this by:
 
 ---
 
-### 🛠 **Key Features**
+### **Key Features**
 
 - **Z-Score Analysis**: Input your Z-score and district to discover degree programs where you have a higher chance of acceptance.
 - **AI-Powered Recommendations**: Using **RAG models**, **LangChain**, and **OpenAI**, our tool provides tailored degree options based on the UGC Handbook.
@@ -101,27 +101,6 @@ Campus Yamu is designed with a sustainable business model that ensures growth an
 1. **Input Your Details**: Enter your Z-score, district, subject stream, and other preferences.
 2. **Get Recommendations**: Our AI, powered by **RAG**, **LangChain**, and **OpenAI**, analyzes the UGC Handbook to find degree programs that match your profile.
 3. **Explore Your Options**: Review the recommended programs and choose the one that best fits your aspirations and academic goals.
-
----
-
-###  **Installation & Setup**
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/campus-yamu.git
-   ```
-
-2. **Install Required Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Web Application**:
-   ```bash
-   python app.py
-   ```
-
-4. **Access the App**: Open your browser and navigate to `http://localhost:5000`.
 
 ---
 
