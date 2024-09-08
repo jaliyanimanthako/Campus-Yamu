@@ -45,6 +45,9 @@ The platform achieves this by:
 #### **Retrieval-Augmented Generation (RAG)**
 RAG is an advanced model architecture that enhances response generation by retrieving relevant external data before producing a response. This hybrid model combines retrieval-based and generation-based approaches to produce highly contextual and accurate recommendations.
 
+![image](https://github.com/user-attachments/assets/59b5e325-95c7-4d58-a5ae-38462c51dc2a)
+
+
 ##### **How RAG Works in Campus Yamu**:
 - **Retrieval**: When a user inputs their Z-score, district, and preferences, the RAG model first searches a database extracted from the **UGC Handbook**. This database includes detailed information about available university programs, requirements, Z-scores, and districts.
 - **Generation**: After retrieving relevant documents from the database, the generation component of RAG processes the content to create a coherent, context-aware recommendation of degree programs.
@@ -53,6 +56,9 @@ RAG is an advanced model architecture that enhances response generation by retri
 1. A **preprocessing step** parses the UGC Handbook into chunks of relevant text, such as information per degree program.
 2. These chunks are indexed using tools like **ElasticSearch** or **FAISS (Facebook AI Similarity Search)** for fast retrieval based on user input.
 3. The RAG model retrieves relevant passages and generates a natural language response in the form of degree recommendations.
+
+![1_diTLYX2NBstoDrSjLglM5g](https://github.com/user-attachments/assets/ed18fc3e-b9c0-4ce4-88f2-c9cf2797478f)
+
 
 ---
 
@@ -68,6 +74,9 @@ RAG is an advanced model architecture that enhances response generation by retri
 1. **LangChain** manages the retrieval logic by controlling the flow of data between the user inputs, the RAG model, and the UGC Handbook.
 2. For each query, LangChain first ensures that relevant Z-score and program data are retrieved. It then helps pass this data efficiently to the RAG model for personalized generation.
 
+![image](https://github.com/user-attachments/assets/f0f02b23-ae35-4edc-990c-f175d2c29221)
+
+
 ---
 
 #### **OpenAI**
@@ -81,6 +90,8 @@ RAG is an advanced model architecture that enhances response generation by retri
 **Integration Flow**:
 1. After LangChain retrieves the relevant Z-score, district, and program data, the **OpenAI GPT** model generates a personalized response.
 2. GPT ensures fluency and accuracy in the recommendations and adapts to any follow-up queries or clarification requests by the user.
+
+![image](https://github.com/user-attachments/assets/90bc7fcd-bd87-4d45-af43-f205ca150873)
 
 ---
 
@@ -104,6 +115,7 @@ Campus Yamu is designed with a sustainable business model that ensures growth an
 1. **Input Your Details**: Enter your Z-score, district, subject stream, and other preferences.
 2. **Get Recommendations**: Our AI, powered by **RAG**, **LangChain**, and **OpenAI**, analyzes the UGC Handbook to find degree programs that match your profile.
 3. **Explore Your Options**: Review the recommended programs and choose the one that best fits your aspirations and academic goals.
+![WhatsApp Image 2024-09-08 at 18 51 23_b17a715f](https://github.com/user-attachments/assets/828edab1-ba2a-49e3-8f52-66242afb29ee)
 
 ---
 
